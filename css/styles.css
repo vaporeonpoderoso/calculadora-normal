@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap');
+
+.calculadora { 
+    margin: 50px auto; 
+    border-radius: 20px; 
+    border: 3px solid #f3a8d1; 
+    width: 40%; 
+    background-color: #fff0fa; 
+    text-align: center; 
+    padding: 20px;
+    box-shadow: 0 0 0 3px white, 0 5px 15px rgba(200, 130, 180, 0.3);
+
+    font-family: 'Fredoka', sans-serif;
+} 
+    
+input { 
+    text-align: center; 
+    padding: 10px; 
+    border: 2px solid #f3acd4; 
+    border-radius: 12px; 
+    font-size: 20px; 
+    width: 40%; 
+    background-color: #fffafd; 
+    color: #b66a9d; 
+    outline: none;
+
+    font-family: 'Fredoka', sans-serif;
+} 
+
+button { 
+    border: none; 
+    border-radius: 12px; 
+    background-color: #ffd6e5; 
+    color: #b83262; 
+    font-size: 15px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    padding: 8px 15px;
+
+    font-family: 'Fredoka', sans-serif;
+} 
+
+button:hover { 
+    background-color: #e8c7ff; 
+    color: #8b3f91; 
+    transform: scale(1.05);
+}
+ 
+.limpe {
+    background-color: #b83262;
+    color: #ffd6e5;
+}
+
+.limpe:hover {
+    background-color: #8b3f91; 
+    color: #e8c7ff; 
+    transform: scale(1.05);
+}
+
+h1, h2 {
+    color: #b83262;
+
+    font-family: 'Fredoka', sans-serif;
+}
